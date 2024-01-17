@@ -2,8 +2,8 @@ import Image from "next/image";
 
 import { Button } from "~/components/ui/button";
 
-export const dynamic = "error";
-export const runtime = "edge";
+export const dynamic = "error"; // force static
+// export const runtime = "edge"; // edge disables SSG and falls backk to ssr
 
 export default function Home() {
   return (

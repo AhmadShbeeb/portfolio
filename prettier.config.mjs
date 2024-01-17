@@ -9,7 +9,7 @@ const config = {
     "prettier-plugin-tailwindcss",
   ],
   tailwindConfig: "./tailwind.config.ts",
-
+  tailwindFunctions: ["cn", "cva"],
   importOrder: [
     "^(react/(.*)$)|^(react$)",
     "^(next/(.*)$)|^(next$)",
@@ -23,7 +23,7 @@ const config = {
     "^[./]",
   ],
   importOrderParserPlugins: ["typescript", "jsx", "decorators-legacy"],
-  importOrderTypeScriptVersion: "5.0.0",
+  importOrderTypeScriptVersion: "4.4.0",
 };
 
 export default config;
